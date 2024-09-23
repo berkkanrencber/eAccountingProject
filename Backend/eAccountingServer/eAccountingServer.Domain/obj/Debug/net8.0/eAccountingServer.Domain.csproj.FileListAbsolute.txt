@@ -1,0 +1,12 @@
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\bin\Debug\net8.0\eAccountingServer.Domain.deps.json
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\bin\Debug\net8.0\eAccountingServer.Domain.dll
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\bin\Debug\net8.0\eAccountingServer.Domain.pdb
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\obj\Debug\net8.0\eAccountingServer.Domain.csproj.AssemblyReference.cache
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\obj\Debug\net8.0\eAccountingServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\obj\Debug\net8.0\eAccountingServer.Domain.AssemblyInfoInputs.cache
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\obj\Debug\net8.0\eAccountingServer.Domain.AssemblyInfo.cs
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\obj\Debug\net8.0\eAccountingServer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\obj\Debug\net8.0\eAccountingServer.Domain.dll
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\obj\Debug\net8.0\refint\eAccountingServer.Domain.dll
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\obj\Debug\net8.0\eAccountingServer.Domain.pdb
+C:\Users\Berkk\.Net Projects\eAccountingServer\eAccountingServer.Domain\obj\Debug\net8.0\ref\eAccountingServer.Domain.dll

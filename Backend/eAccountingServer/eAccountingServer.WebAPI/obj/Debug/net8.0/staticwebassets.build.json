@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gaN/cS1A14aRQdKRpYYL6Mu4aQHu2ZO829pQOAGCjsQ=",
+  "Source": "eAccountingServer.WebAPI",
+  "BasePath": "_content/eAccountingServer.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

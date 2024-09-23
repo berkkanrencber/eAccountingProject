@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\eAccountingServer.WebAPI.props" />
+</Project>
