@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eAccountingServer.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae88639d403294f976188971ef6ffb32b04dbec6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8f21b9f3526c4970bef53d1230ed992b5bbde12")]
 [assembly: System.Reflection.AssemblyProductAttribute("eAccountingServer.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eAccountingServer.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

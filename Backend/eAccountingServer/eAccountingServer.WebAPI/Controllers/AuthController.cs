@@ -1,4 +1,6 @@
-﻿using eAccountingServer.Application.Features.Auth.Login;
+﻿using eAccountingServer.Application.Features.Auth.ConfirmEmail;
+using eAccountingServer.Application.Features.Auth.Login;
+using eAccountingServer.Application.Features.Auth.SendConfirmEmail;
 using eAccountingServer.WebAPI.Abstractions;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -19,5 +21,20 @@ namespace eAccountingServer.WebAPI.Controllers
             var response = await _mediator.Send(request, cancellationToken);
             return StatusCode(response.StatusCode, response);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> ConfirmEmail(ConfirmEmailCommand request, CancellationToken cancellationToken)
+        {
+            var response = await _mediator.Send(request, cancellationToken);
+            return StatusCode(response.StatusCode, response);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SendConfirmEmail(SendConfirmEmailCommand request, CancellationToken cancellationToken)
+        {
+            var response = await _mediator.Send(request, cancellationToken);
+            return StatusCode(response.StatusCode, response);
+        }
+
     }
 }

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "YgWYvnNV7Nw=",
+  "dgSpecHash": "qFkOWV2ofJ8=",
   "success": true,
   "projectFilePath": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\eAccountingServer.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Berkk\\.nuget\\packages\\ardalis.smartenum\\8.0.0\\ardalis.smartenum.8.0.0.nupkg.sha512",
     "C:\\Users\\Berkk\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Berkk\\.nuget\\packages\\fluentemail.core\\3.0.2\\fluentemail.core.3.0.2.nupkg.sha512",
+    "C:\\Users\\Berkk\\.nuget\\packages\\fluentemail.smtp\\3.0.2\\fluentemail.smtp.3.0.2.nupkg.sha512",
     "C:\\Users\\Berkk\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Berkk\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\Berkk\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",

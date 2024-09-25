@@ -1,4 +1,7 @@
 ﻿using AutoMapper;
+using eAccountingServer.Application.Users.CreateUser;
+using eAccountingServer.Application.Users.UpdateUser;
+using eAccountingServer.Domain.Entities;
 
 namespace eAccountingServer.Application.Mapping
 {
@@ -6,7 +9,8 @@ namespace eAccountingServer.Application.Mapping
     {
         public MappingProfile()
         {
-
+            CreateMap<CreateUserCommand, AppUser>();
+            CreateMap<UpdateUserCommand, AppUser>();
         }
     }
 }
