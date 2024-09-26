@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "eAccountingServer.WebAPI.Controllers.AuthController",
+    "Method": "ChangeCompany",
+    "RelativePath": "api/Auth/ChangeCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eAccountingServer.Application.Features.Auth.ChangeCompany.ChangeCompanyCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "eAccountingServer.WebAPI.Controllers.AuthController",
     "Method": "ConfirmEmail",
     "RelativePath": "api/Auth/ConfirmEmail",
     "HttpMethod": "POST",
@@ -48,6 +64,86 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "eAccountingServer.WebAPI.Controllers.CompaniesController",
+    "Method": "Create",
+    "RelativePath": "api/Companies/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eAccountingServer.Application.Features.Companies.CreateCompany.CreateCompanyCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "eAccountingServer.WebAPI.Controllers.CompaniesController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Companies/DeleteById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eAccountingServer.Application.Features.Companies.DeleteCompanyById.DeleteCompanyByIdCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "eAccountingServer.WebAPI.Controllers.CompaniesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Companies/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eAccountingServer.Application.Features.Companies.GetAllCompanies.GetAllCompaniesQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "eAccountingServer.WebAPI.Controllers.CompaniesController",
+    "Method": "MigrateAll",
+    "RelativePath": "api/Companies/MigrateAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eAccountingServer.Application.Features.Companies.MigrateAllCompanies.MigrateAllCompaniesCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "eAccountingServer.WebAPI.Controllers.CompaniesController",
+    "Method": "Update",
+    "RelativePath": "api/Companies/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "eAccountingServer.Application.Features.Companies.UpdateCompany.UpdateCompanyCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "eAccountingServer.WebAPI.Controllers.TestController",
     "Method": "SendTestEmail",
     "RelativePath": "api/Test/SendTestEmail",
@@ -67,7 +163,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "eAccountingServer.Application.Users.CreateUser.CreateUserCommand",
+        "Type": "eAccountingServer.Application.Features.Users.CreateUser.CreateUserCommand",
         "IsRequired": true
       }
     ],
@@ -83,7 +179,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "eAccountingServer.Application.Users.DeleteUser.DeleteUserByIdCommand",
+        "Type": "eAccountingServer.Application.Features.Users.DeleteUserById.DeleteUserByIdCommand",
         "IsRequired": true
       }
     ],
@@ -99,7 +195,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "eAccountingServer.Application.Users.GetAllUsers.GetAllUsersQuery",
+        "Type": "eAccountingServer.Application.Features.Users.GetAllUsers.GetAllUsersQuery",
         "IsRequired": true
       }
     ],
@@ -115,7 +211,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "eAccountingServer.Application.Users.UpdateUser.UpdateUserCommand",
+        "Type": "eAccountingServer.Application.Features.Users.UpdateUser.UpdateUserCommand",
         "IsRequired": true
       }
     ],

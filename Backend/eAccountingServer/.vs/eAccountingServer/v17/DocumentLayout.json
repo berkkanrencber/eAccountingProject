@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|c:\\users\\berkk\\dotnetprojects\\eaccountingproject\\backend\\eaccountingserver\\eaccountingserver.application\\features\\auth\\changecompany\\changecompanycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|solutionrelative:eaccountingserver.application\\features\\auth\\changecompany\\changecompanycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9834989-CC82-46CB-AED5-B6FFBBC2DAE8}|eAccountingServer.WebAPI\\eAccountingServer.WebAPI.csproj|c:\\users\\berkk\\dotnetprojects\\eaccountingproject\\backend\\eaccountingserver\\eaccountingserver.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9834989-CC82-46CB-AED5-B6FFBBC2DAE8}|eAccountingServer.WebAPI\\eAccountingServer.WebAPI.csproj|solutionrelative:eaccountingserver.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|c:\\users\\berkk\\dotnetprojects\\eaccountingproject\\backend\\eaccountingserver\\eaccountingserver.application\\features\\auth\\changecompany\\changecompanycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|solutionrelative:eaccountingserver.application\\features\\auth\\changecompany\\changecompanycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|c:\\users\\berkk\\dotnetprojects\\eaccountingproject\\backend\\eaccountingserver\\eaccountingserver.application\\features\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|solutionrelative:eaccountingserver.application\\features\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C2F6D43-B048-4353-BD09-DBE0ECF85AAB}|eAccountingServer.Infrastructure\\eAccountingServer.Infrastructure.csproj|c:\\users\\berkk\\dotnetprojects\\eaccountingproject\\backend\\eaccountingserver\\eaccountingserver.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C2F6D43-B048-4353-BD09-DBE0ECF85AAB}|eAccountingServer.Infrastructure\\eAccountingServer.Infrastructure.csproj|solutionrelative:eaccountingserver.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|c:\\users\\berkk\\dotnetprojects\\eaccountingproject\\backend\\eaccountingserver\\eaccountingserver.application\\features\\auth\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|solutionrelative:eaccountingserver.application\\features\\auth\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|c:\\users\\berkk\\dotnetprojects\\eaccountingproject\\backend\\eaccountingserver\\eaccountingserver.application\\features\\auth\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|solutionrelative:eaccountingserver.application\\features\\auth\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|c:\\users\\berkk\\dotnetprojects\\eaccountingproject\\backend\\eaccountingserver\\eaccountingserver.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{970EA8AE-1578-414B-BA94-88EC00DA4080}|eAccountingServer.Application\\eAccountingServer.Application.csproj|solutionrelative:eaccountingserver.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChangeCompanyCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Features\\Auth\\ChangeCompany\\ChangeCompanyCommandHandler.cs",
+              "RelativeDocumentMoniker": "eAccountingServer.Application\\Features\\Auth\\ChangeCompany\\ChangeCompanyCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Features\\Auth\\ChangeCompany\\ChangeCompanyCommandHandler.cs",
+              "RelativeToolTip": "eAccountingServer.Application\\Features\\Auth\\ChangeCompany\\ChangeCompanyCommandHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA+wCsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:50:40.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "eAccountingServer.WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "eAccountingServer.WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA0wCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:46:51.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangeCompanyCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Features\\Auth\\ChangeCompany\\ChangeCompanyCommand.cs",
+              "RelativeDocumentMoniker": "eAccountingServer.Application\\Features\\Auth\\ChangeCompany\\ChangeCompanyCommand.cs",
+              "ToolTip": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Features\\Auth\\ChangeCompany\\ChangeCompanyCommand.cs",
+              "RelativeToolTip": "eAccountingServer.Application\\Features\\Auth\\ChangeCompany\\ChangeCompanyCommand.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:41:19.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Infrastructure\\Services\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "eAccountingServer.Infrastructure\\Services\\JwtProvider.cs",
+              "ToolTip": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Infrastructure\\Services\\JwtProvider.cs",
+              "RelativeToolTip": "eAccountingServer.Infrastructure\\Services\\JwtProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:30:55.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "RelativeDocumentMoniker": "eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "RelativeToolTip": "eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:30:38.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "RelativeDocumentMoniker": "eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "RelativeToolTip": "eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:30:35.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Services\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "eAccountingServer.Application\\Services\\IJwtProvider.cs",
+              "ToolTip": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Services\\IJwtProvider.cs",
+              "RelativeToolTip": "eAccountingServer.Application\\Services\\IJwtProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:29:42.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Berkk\\DotNetProjects\\eAccountingProject\\Backend\\eAccountingServer\\eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "eAccountingServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswEsAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:25:08.502Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

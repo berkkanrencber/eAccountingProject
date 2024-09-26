@@ -13,7 +13,6 @@ export class AuthService {
   constructor(
     private router: Router
   ) { 
-    this.isAuthenticated()
   }
 
   isAuthenticated(){
@@ -36,10 +35,9 @@ export class AuthService {
     this.user.name = decode["Name"];
     this.user.email = decode["Email"];
     this.user.userName = decode["UserName"];
-
-    console.log(this.user);
+    this.user.companyId = decode["CompanyId"];
+    this.user.companies = JSON.parse(decode["Companies"]);
     
-
     return true;
   }
 }

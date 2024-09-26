@@ -44,6 +44,7 @@ export class HttpService {
       }
     }).subscribe({
       next: (res)=> {
+        console.log(res.data);
         if(res.data){
           callBack(res.data);        
         }        

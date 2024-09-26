@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eAccountingServer.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8f21b9f3526c4970bef53d1230ed992b5bbde12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6e1f6bcedd29af2edfb7a683a6aacb74f59a1d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("eAccountingServer.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eAccountingServer.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

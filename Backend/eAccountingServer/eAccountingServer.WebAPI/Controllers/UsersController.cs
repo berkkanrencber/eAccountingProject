@@ -1,7 +1,7 @@
-﻿using eAccountingServer.Application.Users.CreateUser;
-using eAccountingServer.Application.Users.DeleteUser;
-using eAccountingServer.Application.Users.GetAllUsers;
-using eAccountingServer.Application.Users.UpdateUser;
+﻿using eAccountingServer.Application.Features.Users.CreateUser;
+using eAccountingServer.Application.Features.Users.DeleteUserById;
+using eAccountingServer.Application.Features.Users.GetAllUsers;
+using eAccountingServer.Application.Features.Users.UpdateUser;
 using eAccountingServer.WebAPI.Abstractions;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
