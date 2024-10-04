@@ -1,7 +1,8 @@
 using DefaultCorsPolicyNugetPackage;
+using eAccountingServer.Application.Hubs;
+using eAccountingServer.WebAPI.Middlewares;
 using eAccountingServer.Application;
 using eAccountingServer.Infrastructure;
-using eAccountingServer.WebAPI.Middlewares;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
 
@@ -59,5 +60,7 @@ app.UseExceptionHandler();
 app.MapControllers();
 
 ExtensionsMiddleware.CreateFirstUser(app);
+
+app.MapHub<ReportHub>("/report-hub");
 
 app.Run();

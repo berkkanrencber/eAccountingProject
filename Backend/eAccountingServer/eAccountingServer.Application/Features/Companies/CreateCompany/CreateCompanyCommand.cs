@@ -2,13 +2,10 @@
 using MediatR;
 using TS.Result;
 
-namespace eAccountingServer.Application.Features.Companies.CreateCompany
-{
-    public sealed record CreateCompanyCommand(
-        string Name,
-        string FullAddress,
-        string TaxDepartment,
-        string TaxNumber,
-        Database Database) : IRequest<Result<string>>;
-
-}
+namespace eAccountingServer.Application.Features.Companies.CreateCompany;
+public sealed record CreateCompanyCommand(
+    string Name,
+    string FullAddress,
+    string TaxDepartment,
+    string TaxNumber,
+    Database Database) : IRequest<Result<string>>;

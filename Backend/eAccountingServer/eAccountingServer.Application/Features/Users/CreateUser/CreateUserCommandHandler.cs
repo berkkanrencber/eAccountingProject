@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using eAccountingServer.Application.Services;
 using eAccountingServer.Domain.Entities;
 using eAccountingServer.Domain.Events;
 using eAccountingServer.Domain.Repositories;
@@ -11,27 +12,30 @@ using TS.Result;
 namespace eAccountingServer.Application.Features.Users.CreateUser;
 
 internal sealed class CreateUserCommandHandler(
+    ICacheService cacheService,
     IMediator mediator,
     UserManager<AppUser> userManager,
-    IMapper mapper,
+    ICompanyUserRepository companyUserRepository,
     IUnitOfWork unitOfWork,
-    ICompanyUserRepository companyUserRepository) : IRequestHandler<CreateUserCommand, Result<string>>
+    IMapper mapper) : IRequestHandler<CreateUserCommand, Result<string>>
 {
     public async Task<Result<string>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
     {
         bool isUserNameExists = await userManager.Users.AnyAsync(p => p.UserName == request.UserName, cancellationToken);
-        if (isUserNameExists)
+
+        if(isUserNameExists)
         {
-            return Result<string>.Failure("Bu kullanıcı adı daha önce kullanılmış!");
+            return Result<string>.Failure("Bu kullanıcı adı daha önce kullanılmış");
         }
 
-        bool isEmailExists = await userManager.Users.AnyAsync(p => p.Email == request.Email, cancellationToken);
-        if (isEmailExists)
-        {
-            return Result<string>.Failure("Bu mail adresi daha önce kullanılmış!");
-        }
+        bool isEmailExists = await userManager.Users.AnyAsync(p=> p.Email == request.Email, cancellationToken);
 
-        AppUser appUser = mapper.Map<AppUser>(request);
+        if(isEmailExists)
+        {
+            return Result<string>.Failure("Bu mail adresi daha önce kullanılmış");
+        }        
+
+        AppUser appUser = mapper.Map<AppUser>(request);       
 
         IdentityResult identityResult = await userManager.CreateAsync(appUser, request.Password);
 
@@ -49,11 +53,11 @@ internal sealed class CreateUserCommandHandler(
         await companyUserRepository.AddRangeAsync(companyUsers, cancellationToken);
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
+        cacheService.Remove("users");
+
         await mediator.Publish(new AppUserEvent(appUser.Id));
 
-        return "Kullanıcı kaydı başarıyla tamamlandı.";
 
+        return "Kullanıcı kaydı başarıyla tamamlandı";
     }
 }
-
-

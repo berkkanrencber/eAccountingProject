@@ -15,8 +15,7 @@ import { SwalService } from '../../services/swal.service';
 })
 export class LoginComponent {
   model: LoginModel = new LoginModel();
-  isLoading: boolean = false;
-  email: string = ""; 
+  email:string = "";
 
   @ViewChild("sendConfirmEmailModalCloseBtn") sendConfirmEmailModalCloseBtn: ElementRef<HTMLButtonElement> | undefined;
 
@@ -27,19 +26,17 @@ export class LoginComponent {
   ){}
 
   signIn(){
-    this.isLoading = true;
     this.http.post<LoginResponseModel>("Auth/Login",this.model,(res)=> {
       localStorage.setItem("token", res.token);
-      console.log(localStorage.getItem("token"))
       this.router.navigateByUrl("/");
-    },()=> this.isLoading = false);
+    });
   }
 
   sendConfirmEmail(){
-    this.http.post<string>("Auth/SendConfirmEmail",{email: this.email},(res)=>{
+    this.http.post<string>("Auth/SendConfirmEmail",{email: this.email},(res)=> {
       this.swal.callToast(res,"info");
       this.sendConfirmEmailModalCloseBtn?.nativeElement.click();
       this.email = "";
-    })
+    });
   }
 }

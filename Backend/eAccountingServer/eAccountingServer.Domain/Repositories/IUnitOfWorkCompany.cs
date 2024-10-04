@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace eAccountingServer.Domain.Repositories
+﻿namespace eAccountingServer.Domain.Repositories;
+public interface IUnitOfWorkCompany
 {
-    public interface IUnitOfWorkCompany
-    {
-        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
-    }
+    Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 }

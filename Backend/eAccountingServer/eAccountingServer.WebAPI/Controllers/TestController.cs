@@ -3,7 +3,6 @@ using FluentEmail.Core;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Runtime.CompilerServices;
 
 namespace eAccountingServer.WebAPI.Controllers;
 
@@ -20,9 +19,9 @@ public sealed class TestController : ApiController
     public async Task<IActionResult> SendTestEmail()
     {
         await _fluentEmail
-            .To("berkkanrencber@gmail.com")
+            .To("tanersaydam@gmail.com")
             .Subject("Test Maili")
-            .Body("<h1>Mail gönderme testi<h1>",true)
+            .Body("<h1>Mail gönderme testi</h1>", true)
             .SendAsync();
 
         return NoContent();

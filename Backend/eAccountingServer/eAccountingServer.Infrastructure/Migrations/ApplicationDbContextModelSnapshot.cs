@@ -64,6 +64,9 @@ namespace eAccountingServer.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(50)");
 
+                    b.Property<bool>("IsAdmin")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
@@ -198,10 +201,10 @@ namespace eAccountingServer.Infrastructure.Migrations
 
             modelBuilder.Entity("eAccountingServer.Domain.Entities.CompanyUser", b =>
                 {
-                    b.HasOne("eAccountingServer.Domain.Entities.AppUser", "AppUser")
+                    b.HasOne("eAccountingServer.Domain.Entities.AppUser", null)
                         .WithMany("CompanyUsers")
                         .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("eAccountingServer.Domain.Entities.Company", "Company")
@@ -209,8 +212,6 @@ namespace eAccountingServer.Infrastructure.Migrations
                         .HasForeignKey("CompanyId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("AppUser");
 
                     b.Navigation("Company");
                 });

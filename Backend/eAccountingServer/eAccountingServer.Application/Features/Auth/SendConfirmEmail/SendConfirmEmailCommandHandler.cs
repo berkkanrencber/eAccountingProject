@@ -13,18 +13,18 @@ internal sealed class SendConfirmEmailCommandHandler(
     public async Task<Result<string>> Handle(SendConfirmEmailCommand request, CancellationToken cancellationToken)
     {
         AppUser? appUser = await userManager.FindByEmailAsync(request.Email);
-        if (appUser == null)
+        if (appUser is null)
         {
-            return "Mail adresi sistemde kayıtlı değil!";
+            return "Mail adresi sistemde kayıtlı değil";
         }
 
         if (appUser.EmailConfirmed)
         {
-            return "Mail adresi zaten onaylı!";
+            return "Mail adresi zaten onaylı";
         }
 
         await mediator.Publish(new AppUserEvent(appUser.Id));
 
-        return "Onay maili başarıyla gönderildi.";
+        return "Onay maili başarıyla gönderildi";
     }
 }

@@ -12,8 +12,7 @@ export class AuthService {
 
   constructor(
     private router: Router
-  ) { 
-  }
+  ) { }
 
   isAuthenticated(){
     this.token = localStorage.getItem("token") ?? "";
@@ -36,8 +35,9 @@ export class AuthService {
     this.user.email = decode["Email"];
     this.user.userName = decode["UserName"];
     this.user.companyId = decode["CompanyId"];
-    this.user.companies = JSON.parse(decode["Companies"]);
-    
+    this.user.companyResponse = JSON.parse(decode["Companies"]);
+    this.user.isAdmin = decode["IsAdmin"] == "True" ? true : false;
+
     return true;
   }
 }

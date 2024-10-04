@@ -321,3 +321,7 @@ C:\Users\Berkk\DotNetProjects\eAccountingProject\Backend\eAccountingServer\eAcco
 C:\Users\Berkk\DotNetProjects\eAccountingProject\Backend\eAccountingServer\eAccountingServer.WebAPI\obj\Debug\net8.0\ref\eAccountingServer.WebAPI.dll
 C:\Users\Berkk\DotNetProjects\eAccountingProject\Backend\eAccountingServer\eAccountingServer.WebAPI\bin\Debug\net8.0\FluentEmail.Core.dll
 C:\Users\Berkk\DotNetProjects\eAccountingProject\Backend\eAccountingServer\eAccountingServer.WebAPI\bin\Debug\net8.0\FluentEmail.Smtp.dll
+C:\Users\Berkk\DotNetProjects\eAccountingProject\Backend\eAccountingServer\eAccountingServer.WebAPI\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Berkk\DotNetProjects\eAccountingProject\Backend\eAccountingServer\eAccountingServer.WebAPI\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Users\Berkk\DotNetProjects\eAccountingProject\Backend\eAccountingServer\eAccountingServer.WebAPI\bin\Debug\net8.0\Bogus.dll
+C:\Users\Berkk\DotNetProjects\eAccountingProject\Backend\eAccountingServer\eAccountingServer.WebAPI\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll

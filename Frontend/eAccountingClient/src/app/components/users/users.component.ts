@@ -10,7 +10,7 @@ import { CompanyModel } from '../../models/company.model';
 @Component({
   selector: 'app-users',
   standalone: true,
-  imports: [SharedModule,UserPipe],
+  imports: [SharedModule, UserPipe],
   templateUrl: './users.component.html',
   styleUrl: './users.component.css'
 })
@@ -74,7 +74,8 @@ export class UsersComponent {
 
   update(form: NgForm){
     if(form.valid){
-      if(this.updateModel.password === "") this.updateModel.password = null
+      if(this.updateModel.password === "") this.updateModel.password = null;
+      
       this.http.post<string>("Users/Update",this.updateModel,(res)=> {
         this.swal.callToast(res,"info");
         this.updateModalCloseBtn?.nativeElement.click();

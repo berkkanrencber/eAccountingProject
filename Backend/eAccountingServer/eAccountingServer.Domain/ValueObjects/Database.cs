@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace eAccountingServer.Domain.ValueObjects;
+﻿namespace eAccountingServer.Domain.ValueObjects;
 
 public sealed record Database(
     string Server,

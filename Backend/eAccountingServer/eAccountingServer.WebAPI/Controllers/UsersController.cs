@@ -18,7 +18,7 @@ public sealed class UsersController : ApiController
     public async Task<IActionResult> GetAll(GetAllUsersQuery request, CancellationToken cancellationToken)
     {
         var response = await _mediator.Send(request, cancellationToken);
-        return StatusCode(response.StatusCode,response);
+        return StatusCode(response.StatusCode, response);
     }
 
     [HttpPost]

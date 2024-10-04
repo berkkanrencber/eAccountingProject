@@ -1,7 +1,6 @@
-﻿namespace eAccountingServer.Application.Features.Auth.Login
-{
-    public sealed record LoginCommandResponse(
-        string Token,
-        string RefreshToken,
-        DateTime RefreshTokenExpires);
-}
+﻿namespace eAccountingServer.Application.Features.Auth.Login;
+
+public sealed record LoginCommandResponse(
+    string Token,
+    string RefreshToken,
+    DateTime RefreshTokenExpires);

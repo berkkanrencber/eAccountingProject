@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../../../services/auth.service';
-import { HttpService } from '../../../services/http.service';
+import { HttpClient } from '@angular/common/http';
 import { LoginResponseModel } from '../../../models/login.response.model';
 import { FormsModule } from '@angular/forms';
+import { HttpService } from '../../../services/http.service';
 
 @Component({
   selector: 'app-navbar',

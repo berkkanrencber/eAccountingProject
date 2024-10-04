@@ -1,13 +1,7 @@
 ﻿using eAccountingServer.Domain.Abstractions;
 using eAccountingServer.Domain.ValueObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace eAccountingServer.Domain.Entities;
-
 public sealed class Company : Entity
 {
     public string Name { get; set; } = string.Empty;
